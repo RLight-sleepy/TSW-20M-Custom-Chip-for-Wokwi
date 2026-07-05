@@ -1,0 +1,25 @@
+{
+  "name": "tsw-20m",
+  "author": "Custom Developer",
+  "pins": [ "V", "G", "A", "D" ],
+  "controls": [
+    {
+      "id": "turbidity",
+      "label": "Water Turbidity (NTU)",
+      "type": "range",
+      "min": 0,
+      "max": 4550,
+      "step": 1,
+      "value": 0
+    },
+    {
+      "id": "threshold",
+      "label": "Potentiometer Threshold (NTU)",
+      "type": "range",
+      "min": 0,
+      "max": 4550,
+      "step": 1,
+      "value": 2000
+    }
+  ]
+}
